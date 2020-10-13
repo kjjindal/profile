@@ -1,5 +1,9 @@
 *{
-    margin: 0;
+    margin:0;
+    padding:0;
+}
+.s{
+    margin: 0px ;
 }
 .nav2{
     display: flex;
@@ -37,7 +41,7 @@
     /* justify-content: center; */
     align-items: center;
     max-width: 50%;
-    height: 50%;
+    /* height:50%; */
     height: 80vh;
     margin-top:20px;
  
@@ -70,7 +74,9 @@
      justify-content: center;
 }
 .footer{
-    height:60vh;
+    /* height:60vh;
+     */
+     height:100%;
 }
 .know a{
     color: #fff;
@@ -144,7 +150,8 @@
 .intro{
     display: flex;
     flex-direction: column;
-    width: 500px;
+    width:385px;
+    /* width: auto; */
 }
 .imk{
  border: 2px solid black;
