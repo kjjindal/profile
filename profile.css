@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+}
+.nav2{
+    display: flex;
+    flex-direction: row;
+    /* justify-content:space-around; */
+    font-size:19px;
+}
+.name1{
+    display:flex;
+    justify-content: center;
+
+}
+.li1{
+    padding:5px 20px;
+    list-style: none;
+}
+.li1 a{
+    color: black;
+    text-decoration: none;
+}
+.li1 a:hover{
+    border-bottom: 2px solid springgreen;
+    text-decoration: none;
+    color:black;
+    transition: ease-in-out;
+   
+
+}
+.section2{
+    background-color: azure;
+}
+.med{
+    display: flex;
+    margin: auto;
+    /* justify-content: center; */
+    align-items: center;
+    max-width: 50%;
+    height: 50%;
+    height: 80vh;
+    margin-top:20px;
+ 
+    
+}
+.image{
+    margin:100px;
+    margin-right: 20px;
+    margin-left: 12px;
+}
+.row1{
+    text-align: start;
+}
+.row2 h1{
+    font-size: 60px;
+    font-weight: 800;
+}
+.about1{
+    margin: 20px;
+}
+/* .card2{
+    display: flex;
+    justify-content: flex-end;
+} */
+.education{
+    text-align: center;
+}
+.edudetails{
+     display: flex;
+     justify-content: center;
+}
+.footer{
+    height:60vh;
+}
+.know a{
+    color: #fff;
+}
+.know a:hover{
+    text-decoration: none;
+    color: chartreuse;
+    font-size:20px;
+    transition-delay:120ms;
+}
+.bor{
+    padding-left: 5px;
+    border-right: 1px solid rgba(255, 255, 255, 0.438);
+    border-left: 1px solid rgba(255,255,255,0.438);
+}
+
+.png a:hover{
+    text-decoration: none;
+
+
+}
+.skills{
+    display: block;
+    text-align: justify;
+}
+.hire{
+    background:rgba(0, 0, 0, 0.70) url("image/alex-duffy-Kbo4eRccd-A-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode:darken;
+    height: 50vh;display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tra a{
+    background-color: transparent;
+    padding-left: 10px;
+    padding-right: 10px;
+
+   
+}
+.tra a:hover{
+    background-color:greenyellow ;
+    color: black;
+    border: black;
+}
+.li2{
+    list-style: none;
+}
+.udemy{
+    display: block;
+    text-align: end;
+}
+.body1{
+    font-size: 30px;
+}
+#typed{
+    color:cyan;
+    font-size: 30px;
+    text-transform: uppercase;
+    transition: ease-in-out;
+}
+/* #typed::after{
+    content: "|";
+    display: inline;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation:blink 0.7s infinite;
+} */
+.intro{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+.imk{
+ border: 2px solid black;
+ padding: 2px;
+ background-color:orange;
+
+}
+.ims{
+    /* border: 2px solid black; */
+    padding: 2px;
+    /* background-color: mediumturquoise; */
+   
+}
+.k{
+    border-radius:50px;
+}
+.checked{
+    color: orange;
+}
+
+.udemy1{
+  position: relative;
+ animation:udemy1 10s linear infinite ;
+
+}
+@keyframes udemy1{
+    0%{
+        top:0px;
+        
+
+    }
+    50%{
+        top:487px;
+        
+    }
+    100%{
+        top:0px;
+     
+    
+    }
+
+}
+/* .section5{
+    display: none;
+} */
+
+
