@@ -150,7 +150,7 @@
 .intro{
     display: flex;
     flex-direction: column;
-    width:385px;
+    width:400px;
     /* width: auto; */
 }
 .imk{
@@ -194,8 +194,21 @@
     }
 
 }
-/* .section5{
+.burger{
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top:2%;
     display: none;
-} */
+
+}
+.line{
+    background-color: black;
+    height: 5px;
+    width:50px;
+    margin: 3px 3px;
+    color: black;
+}
+
 
 

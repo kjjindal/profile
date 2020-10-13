@@ -6,20 +6,55 @@
         align-items: center;
     }
     .edudetails div{
-        width:500px;
-        height: 400px;
+        width:600px;
+        height:300px;
         margin:2px 2px 1px 2px !important;
     }
 }
 @media only screen and (max-width:768px){
-    res{
+    .burger{
+        display: block;
+    }
+    .res{
         margin-top:5px !important;
         margin-bottom:5px !important;
 
     }
-    hr{
+    .h_nav{
+        height:61px;
+    }
+    .t_resp{
+        opacity: 0;
+
+    }
+    
+    .nav2{
+        height:150px;
+        display: flex;
+        background-color: transparent;
+        flex-direction: column;
+        align-items: center;
+        transition: all 0.1s linear;
+    }
+    
+    .hr{
         margin-top: 5px !important;
     }
+    .card2{
+        display: flex !important;
+        justify-content: flex-end !important;
+    }
+    .card1{
+        display:flex;
+        justify-content:center;
+    }
+    .ind{
+        width: 768px;
+    }
+    /* .empty{
+        margin-left: 1px;
+        display: none;
+    } */
 }
 @media only screen and (max-width:576px){
    .med{
@@ -35,10 +70,73 @@
        align-items: center;
 
    }
+   .body1{
+       font-size:25px;
+   }
+   #typed{
+       font-size:25px;
+   }
   
    .edudetails div{
     width:80%;
     height: 400px;
     margin:2px 2px 1px 2px !important;
 }
+.ind{
+    width: 425px;
 }
+.about1 h1{
+    display: block;
+    width:100%;
+    text-align: center;
+}
+.res{
+    display: flex;
+    justify-content: space-around;
+}
+.hr{
+    display: flex;
+    justify-content: space-around !important;
+}
+.tran{
+    font-size:20px;
+}
+}
+@media only screen and (max-width:320px){
+    .nav{
+        width: 320px;
+    }
+    .nav2 a{
+        font-size:15px;
+    
+
+    }
+    .nav1{
+        width: 100%;
+    }
+    .intro{
+        width:320px;
+    }
+.movement{
+    display: none;
+}
+.edudetails div{
+    height:auto;
+}
+.edudetails div h1{
+    font-size:22px;
+}
+.row2 h1{
+    font-size:45px !important;
+   
+}
+.ind{
+    width: 320px;
+}
+
+}
+/* @media only screen and (max-width:375){
+    ind{
+        widows: 375px;;
+    }
+} */
