@@ -1,7 +1,7 @@
 
 
 var burger=document.querySelector('.burger')
-var navbar1=document.querySelector('.navbar_1')
+var navbar1=document.querySelector('.nav2')
 var navbar=document.querySelector('.nav')
 
 
