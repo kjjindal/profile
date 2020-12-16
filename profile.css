@@ -2,6 +2,29 @@
     margin:0;
     padding:0;
 }
+/* width */
+::-webkit-scrollbar {
+    width: 15px;
+    height:15px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background:linear-gradient(45deg,rgb(132, 0, 255),#ff00ff); 
+    border-radius: 10px;
+    
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background:linear-gradient(45deg,rgb(0, 217, 255),rgb(97, 182, 18)); 
+  }
 .s{
     margin: 0px ;
 }
